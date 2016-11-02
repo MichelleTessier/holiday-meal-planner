@@ -14,6 +14,10 @@
 		2CCBD1041DCA7D060017E083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD1021DCA7D060017E083 /* LaunchScreen.storyboard */; };
 		2CCBD10F1DCA7D060017E083 /* HolidayMealPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBD10E1DCA7D060017E083 /* HolidayMealPlannerTests.swift */; };
 		2CCBD11A1DCA7D060017E083 /* HolidayMealPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBD1191DCA7D060017E083 /* HolidayMealPlannerUITests.swift */; };
+		2CCBD12E1DCA86C00017E083 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD12D1DCA86C00017E083 /* SignUp.storyboard */; };
+		2CCBD1301DCAA69D0017E083 /* Guests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD12F1DCAA69D0017E083 /* Guests.storyboard */; };
+		2CCBD1321DCAA6A80017E083 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD1311DCAA6A80017E083 /* Menu.storyboard */; };
+		2CCBD1341DCAA6B40017E083 /* Recipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD1331DCAA6B40017E083 /* Recipes.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2CCBD1151DCA7D060017E083 /* HolidayMealPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayMealPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCBD1191DCA7D060017E083 /* HolidayMealPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayMealPlannerUITests.swift; sourceTree = "<group>"; };
 		2CCBD11B1DCA7D060017E083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCBD12D1DCA86C00017E083 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		2CCBD12F1DCAA69D0017E083 /* Guests.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guests.storyboard; sourceTree = "<group>"; };
+		2CCBD1311DCAA6A80017E083 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		2CCBD1331DCAA6B40017E083 /* Recipes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Recipes.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				2CCBD0F91DCA7D060017E083 /* AppDelegate.swift */,
-				2CCBD0FB1DCA7D060017E083 /* ViewController.swift */,
-				2CCBD0FD1DCA7D060017E083 /* Main.storyboard */,
-				2CCBD1001DCA7D060017E083 /* Assets.xcassets */,
-				2CCBD1021DCA7D060017E083 /* LaunchScreen.storyboard */,
-				2CCBD1051DCA7D060017E083 /* Info.plist */,
+				2CCBD1281DCA84320017E083 /* Model */,
+				2CCBD12A1DCA84720017E083 /* DAO */,
+				2CCBD1291DCA84590017E083 /* Services */,
+				2CCBD1271DCA84170017E083 /* View Controllers */,
+				2CCBD12B1DCA84830017E083 /* Storyboards */,
+				2CCBD12C1DCA848F0017E083 /* SupportingFiles */,
 			);
 			path = HolidayMealPlanner;
 			sourceTree = "<group>";
@@ -123,6 +132,57 @@
 				2CCBD11B1DCA7D060017E083 /* Info.plist */,
 			);
 			path = HolidayMealPlannerUITests;
+			sourceTree = "<group>";
+		};
+		2CCBD1271DCA84170017E083 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBD0FB1DCA7D060017E083 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2CCBD1281DCA84320017E083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2CCBD1291DCA84590017E083 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2CCBD12A1DCA84720017E083 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		2CCBD12B1DCA84830017E083 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBD1021DCA7D060017E083 /* LaunchScreen.storyboard */,
+				2CCBD0FD1DCA7D060017E083 /* Main.storyboard */,
+				2CCBD12D1DCA86C00017E083 /* SignUp.storyboard */,
+				2CCBD12F1DCAA69D0017E083 /* Guests.storyboard */,
+				2CCBD1311DCAA6A80017E083 /* Menu.storyboard */,
+				2CCBD1331DCAA6B40017E083 /* Recipes.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		2CCBD12C1DCA848F0017E083 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBD1051DCA7D060017E083 /* Info.plist */,
+				2CCBD1001DCA7D060017E083 /* Assets.xcassets */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +297,10 @@
 			files = (
 				2CCBD1041DCA7D060017E083 /* LaunchScreen.storyboard in Resources */,
 				2CCBD1011DCA7D060017E083 /* Assets.xcassets in Resources */,
+				2CCBD12E1DCA86C00017E083 /* SignUp.storyboard in Resources */,
+				2CCBD1321DCAA6A80017E083 /* Menu.storyboard in Resources */,
+				2CCBD1301DCAA69D0017E083 /* Guests.storyboard in Resources */,
+				2CCBD1341DCAA6B40017E083 /* Recipes.storyboard in Resources */,
 				2CCBD0FF1DCA7D060017E083 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
