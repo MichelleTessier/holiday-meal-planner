@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C92160A1DCBCF670041AEA5 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9216091DCBCF670041AEA5 /* SignUpVC.swift */; };
+		2C92160C1DCBCF840041AEA5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92160B1DCBCF840041AEA5 /* SignInVC.swift */; };
+		2C92160E1DCBCF9F0041AEA5 /* AppInterfaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92160D1DCBCF9F0041AEA5 /* AppInterfaceVC.swift */; };
+		2C9216121DCBD6CD0041AEA5 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9216111DCBD6CD0041AEA5 /* WelcomeVC.swift */; };
+		2C9216171DCBF8C60041AEA5 /* AppearenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9216161DCBF8C60041AEA5 /* AppearenceController.swift */; };
 		2CCBD0FA1DCA7D060017E083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBD0F91DCA7D060017E083 /* AppDelegate.swift */; };
-		2CCBD0FC1DCA7D060017E083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBD0FB1DCA7D060017E083 /* ViewController.swift */; };
 		2CCBD0FF1DCA7D060017E083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD0FD1DCA7D060017E083 /* Main.storyboard */; };
 		2CCBD1011DCA7D060017E083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD1001DCA7D060017E083 /* Assets.xcassets */; };
 		2CCBD1041DCA7D060017E083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBD1021DCA7D060017E083 /* LaunchScreen.storyboard */; };
@@ -38,9 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C9216091DCBCF670041AEA5 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		2C92160B1DCBCF840041AEA5 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		2C92160D1DCBCF9F0041AEA5 /* AppInterfaceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInterfaceVC.swift; sourceTree = "<group>"; };
+		2C9216111DCBD6CD0041AEA5 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		2C9216161DCBF8C60041AEA5 /* AppearenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearenceController.swift; sourceTree = "<group>"; };
 		2CCBD0F61DCA7D060017E083 /* HolidayMealPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayMealPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCBD0F91DCA7D060017E083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CCBD0FB1DCA7D060017E083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CCBD0FE1DCA7D060017E083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CCBD1001DCA7D060017E083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CCBD1031DCA7D060017E083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +90,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9216131DCBF7560041AEA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		2CCBD0ED1DCA7D060017E083 = {
 			isa = PBXGroup;
 			children = (
@@ -106,10 +121,12 @@
 			isa = PBXGroup;
 			children = (
 				2CCBD0F91DCA7D060017E083 /* AppDelegate.swift */,
+				2C9216161DCBF8C60041AEA5 /* AppearenceController.swift */,
 				2CCBD1281DCA84320017E083 /* Model */,
 				2CCBD12A1DCA84720017E083 /* DAO */,
 				2CCBD1291DCA84590017E083 /* Services */,
 				2CCBD1271DCA84170017E083 /* View Controllers */,
+				2C9216131DCBF7560041AEA5 /* Views */,
 				2CCBD12B1DCA84830017E083 /* Storyboards */,
 				2CCBD12C1DCA848F0017E083 /* SupportingFiles */,
 			);
@@ -123,7 +140,7 @@
 				2CCBD1101DCA7D060017E083 /* Info.plist */,
 			);
 			path = HolidayMealPlannerTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		2CCBD1181DCA7D060017E083 /* HolidayMealPlannerUITests */ = {
 			isa = PBXGroup;
@@ -137,7 +154,10 @@
 		2CCBD1271DCA84170017E083 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2CCBD0FB1DCA7D060017E083 /* ViewController.swift */,
+				2C9216111DCBD6CD0041AEA5 /* WelcomeVC.swift */,
+				2C9216091DCBCF670041AEA5 /* SignUpVC.swift */,
+				2C92160B1DCBCF840041AEA5 /* SignInVC.swift */,
+				2C92160D1DCBCF9F0041AEA5 /* AppInterfaceVC.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -326,8 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCBD0FC1DCA7D060017E083 /* ViewController.swift in Sources */,
+				2C92160A1DCBCF670041AEA5 /* SignUpVC.swift in Sources */,
+				2C9216121DCBD6CD0041AEA5 /* WelcomeVC.swift in Sources */,
 				2CCBD0FA1DCA7D060017E083 /* AppDelegate.swift in Sources */,
+				2C9216171DCBF8C60041AEA5 /* AppearenceController.swift in Sources */,
+				2C92160E1DCBCF9F0041AEA5 /* AppInterfaceVC.swift in Sources */,
+				2C92160C1DCBCF840041AEA5 /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +602,7 @@
 				2CCBD1201DCA7D060017E083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CCBD1211DCA7D060017E083 /* Build configuration list for PBXNativeTarget "HolidayMealPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +611,7 @@
 				2CCBD1231DCA7D060017E083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CCBD1241DCA7D060017E083 /* Build configuration list for PBXNativeTarget "HolidayMealPlannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +620,7 @@
 				2CCBD1261DCA7D060017E083 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v1a-Ry-Qhv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v1a-Ry-Qhv">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-892" y="172"/>
         </scene>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="BJw-53-IcZ">
             <objects>
-                <viewController id="AOR-3Q-ere" sceneMemberID="viewController">
+                <viewController id="AOR-3Q-ere" customClass="WelcomeVC" customModule="HolidayMealPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n5U-dZ-nLB"/>
                         <viewControllerLayoutGuide type="bottom" id="mZe-SR-KXa"/>
@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="-80.799999999999997" y="172.26386806596702"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign InVC-->
         <scene sceneID="yCP-2B-KES">
             <objects>
-                <viewController id="oPx-mj-idx" sceneMemberID="viewController">
+                <viewController id="oPx-mj-idx" customClass="SignInVC" customModule="HolidayMealPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ikd-kM-1Do"/>
                         <viewControllerLayoutGuide type="bottom" id="loL-1B-SoD"/>
@@ -100,12 +100,12 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJA-Nf-99L">
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AgC-k3-ZgZ">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AgC-k3-ZgZ">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vGi-Lz-Wuk">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vGi-Lz-Wuk">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -147,7 +147,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="TY2-6v-0gk">
             <objects>
-                <viewController id="gKp-WG-blj" userLabel="Sign Up View Controller" sceneMemberID="viewController">
+                <viewController id="gKp-WG-blj" userLabel="Sign Up View Controller" customClass="SignUpVC" customModule="HolidayMealPlanner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JbJ-nd-p98"/>
                         <viewControllerLayoutGuide type="bottom" id="X3N-u0-Ntl"/>
@@ -158,17 +158,17 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vT-dl-NCu">
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oQM-XI-V3w">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oQM-XI-V3w">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qra-1F-pMb">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qra-1F-pMb">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T4U-73-x40">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T4U-73-x40">
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -194,8 +194,9 @@
                                     <constraint firstAttribute="width" secondItem="Elr-wS-hbq" secondAttribute="height" multiplier="1:1" id="U9G-7s-Xir"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrB-Is-IQa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrB-Is-IQa">
                                 <color key="backgroundColor" red="0.92941176470588238" green="0.49803921568627452" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.92941176469999998" green="0.49803921569999998" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3411764705882353" green="0.2196078431372549" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
@@ -211,6 +212,14 @@
                             <constraint firstItem="lrB-Is-IQa" firstAttribute="height" secondItem="Elr-wS-hbq" secondAttribute="height" id="t6a-wb-P7P"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="oQM-XI-V3w" id="82x-bL-QxC"/>
+                        <outlet property="nameTextField" destination="T4U-73-x40" id="5c8-pe-vyO"/>
+                        <outlet property="nextButton" destination="lrB-Is-IQa" id="Cmg-ow-rG9"/>
+                        <outlet property="passwordTextField" destination="Qra-1F-pMb" id="e5Y-il-qNc"/>
+                        <outlet property="signUpBox" destination="7vT-dl-NCu" id="2MS-yN-YIw"/>
+                        <outlet property="yConstraintSignUpBox" destination="euJ-jc-X3d" id="ECz-sQ-3WC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bbz-Hy-wiS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
